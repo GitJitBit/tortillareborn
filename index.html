@@ -1,17 +1,64 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tortilla2</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-  </head>
-  <body>
-    <h1>Welcome to my Games!</h1>
-
-    <ul>
-
-      <a href="EaglercraftL_1.9_v0_7_0_Offline_Signed.html"> <button>EaglercraftX 1.8</button> </a>
-    </ul>
-  </body>
+    <title>Epic Browser Games</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Epic Browser Games</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Eaglercraft</h2>
+            <p>Play Minecraft in your browser with no downloads!</p>
+            <a href="eaglercraft.html" class="button">Play Now</a>
+        </div>
+        <div class="card">
+            <h2>Krunker.io</h2>
+            <p>Fast-paced browser FPS with smooth mechanics.</p>
+            <a href="krunker.html" class="button">Play Now</a>
+        </div>
+        <div class="card">
+            <h2>Shell Shockers</h2>
+            <p>Egg-based multiplayer shooter, crack your opponents!</p>
+            <a href="shellshock.html" class="button">Play Now</a>
+        </div>
+        <div class="card">
+            <h2>1v1.LOL</h2>
+            <p>Battle royale meets Fortnite building mechanics!</p>
+            <a href="1v1lol.html" class="button">Play Now</a>
+        </div>
+    </div>
+</body>
 </html>
